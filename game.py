@@ -23,13 +23,6 @@ def player_change(player_):
     return player_
 
 
-def victory(data_):
-    for y in data_:
-        if y == ['x', 'x', 'x']:
-            y = 1
-    pass
-
-
 data = [['-' for x in range(0, 3)] for y in range(0, 3)]
 print_data(data)
 print('Введите координаты y x через пробел!')
